@@ -4,8 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>TechSchool || edTech site</title>
-        <!-- bootstrap cdn -->
+        <!-- bootstrap css cdn -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <!-- bootstrap icons cdn -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <!-- custom css -->
         <link rel="stylesheet" href="./src/css/style.css">
         <style>
             
@@ -15,7 +18,7 @@
         <!-- navigation bar -->
         <nav class="navbar sticky-top top-0 py-3 shadow-sm navbar-expand-lg bg-light">
             <div class="container-fluid container">
-                <a class="navbar-brand fw-bold text-primary" href="#">TechSchool</a>
+                <a class="navbar-brand fw-bold text-info" href="#">TechSchool</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -28,19 +31,16 @@
                             <a class="nav-link fw-semibold text-capitalize" href="#course"> Courses </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-semibold text-capitalize" href="#"> Deals </a>
+                            <a class="nav-link fw-semibold text-capitalize" href="#deals"> Deals </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-semibold text-capitalize" href="#"> Sucess </a>
+                            <a class="nav-link fw-semibold text-capitalize" href="#about-and-contact"> About </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-semibold text-capitalize" href="#"> About </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-semibold text-capitalize" href="#"> Contact Us </a>
+                            <a class="nav-link fw-semibold text-capitalize" href="#about-and-contact"> Contact Us </a>
                         </li>
                     </ul>
-                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Register</button>
+                        <button type="button" class="btn btn-info fw-semibold text-white rounded-1 py-2 px-4" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Register</button>
                         
                 </div>
                 </div>
@@ -54,7 +54,7 @@
                         <div class=" carousel-caption d-flex flex-column justify-content-center w-auto h-75 h-md-100">
                             <h5 class="fs-2 text-capitalize">Develop your skill</h5>
                             <p class="d-none d-md-block fs-6">Read on to find the main benefits of skill development. main benefits of skill development.</p>
-                            <a href="#" class="btn border-0 text-decoration-none bg-light py-1 px-2 px-md-3 px-lg-5 mx-auto rounded-1 w-auto fs-4 fw-semibold text-primary">Get Started</a>
+                            <a href="#" class="btn btn-info fw-semibold text-white border-0 py-1 px-2 px-md-3 px-lg-5 mx-auto rounded-1 w-auto fs-4">Get Started</a>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -62,7 +62,7 @@
                         <div class=" carousel-caption d-flex flex-column justify-content-center w-auto h-75 h-md-100">
                             <h5 class="fs-2 text-capitalize"> build your skills</h5>
                             <p class="d-none d-md-block fs-6">The benefits of having tech skills go far beyond. main benefits of skill development.</p>
-                            <a href="#" class="btn border-0 text-decoration-none bg-light py-1 px-2 px-md-3 px-lg-5 mx-auto rounded-1 w-auto fs-4 fw-semibold text-primary">Get Started</a>
+                            <a href="#" class="btn btn-info fw-semibold text-white border-0 py-1 px-2 px-md-3 px-lg-5 mx-auto rounded-1 w-auto fs-4">Get Started</a>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -70,7 +70,7 @@
                         <div class=" carousel-caption d-flex flex-column justify-content-center w-auto h-75 h-md-100">
                             <h5 class="fs-2 text-capitalize">Increase Your Skill</h5>
                             <p class="d-none d-md-block fs-6">Read on to find the main benefits of skill development. main benefits of skill development.</p>
-                            <a href="#" class="btn border-0 text-decoration-none bg-light py-1 px-2 px-md-3 px-lg-5 mx-auto rounded-1 w-auto fs-4 fw-semibold text-primary">Get Started</a>
+                            <a href="#" class="btn btn-info fw-semibold text-white border-0 py-1 px-2 px-md-3 px-lg-5 mx-auto rounded-1 w-auto fs-4">Get Started</a>
                         </div>
                     </div>
                     </div>
@@ -94,7 +94,7 @@
                     <h1 class="text-capitalize pt-sm-0 pt-5">our courses</h1>
                     <p class="text-secondary fw-semibold">Online courses are created to expand your professional knowledge or allow you to explore an area of personal interest.</p>
                 </div>
-                <div class="row g-3 mt-5">
+                <div class="row g-3 mt-3">
                     <div class="col-12 my-4 my-lg-2 col-lg-6">
                         <div class=" bg-white shadow-sm rounded-3 d-flex flex-column flex-md-row justify-content-between align-items-center">
                             <img class="img-fluid p-3 col-md-3 p-lg-3" src="./src/images/course/course-1.png" alt="">
@@ -156,11 +156,11 @@
                         </div>
                     </div>
                 </div>
-                <button class="btn btn-primary fs-4 fw-semibold px-4 py-2 text-center d-block d-lg-none mx-auto my-4 mb-5">View All</button>
+                <button class="btn btn-info fw-semibold text-white border-0 py-1 px-2 px-md-3 px-lg-5 mx-auto my-5 rounded-1 w-auto fs-4">View All</button>
 
             </section>
             <!-- our deals -->
-            <section class="container mb-5">
+            <section id="deals" class="container mb-5">
                 <div class="row bg-light shadow-lg rounded-3 my-4 mx-auto p-4 p-lg-0 g-0 g-lg-5 d-flex flex-column justify-content-between flex-lg-row align-items-center">
                     <div class="col-12 col-lg-4 mt-0"><img class="w-100 img-fluid" src="./src/images/working.png" alt=""></div>
                     <div class="col-12 col-lg-8 py-1 py-lg-5 mt-0">
@@ -186,7 +186,7 @@
                             </div>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <button class="btn btn-primary rounded-1 px-4 py-2 fs-4 ">Read More</button>
+                            <button class="btn btn-info rounded-1 fw-semibold text-white px-4 py-2 fs-4 ">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -196,17 +196,16 @@
             <!-- get started -->
             <section class="container my-5">
                 <!-- registration card -->
-                <div class="bg-primary py-5 rounded-3">
+                <div class="bg-info py-5 rounded-3">
                     <div class="d-flex justify-content-between flex-column flex-lg-row align-items-center py-5 px-5">
                         <div class="texts text-light text-center text-lg-start">
                             <h2 class="fw-semibold">Let's Get Started</h2>
-                            <p class="">Technical skills are the abilities and knowledge needed to perform specific tasks.</p>
+                            <p class="fw-semibold">Technical skills are the abilities and knowledge needed to perform specific tasks.</p>
                         </div>
-                        <button type="button" class="btn bg-light text-primary rounded-1 fw-semibold fs-4 py-2 px-4 h-75" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Register Now</button>
+                        <button type="button" class="btn bg-light text-info rounded-1 fw-semibold fs-4 py-2 px-4 h-75" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Register Now</button>
                     </div>
                 </div>
             </section>
-
             <!-- accordians -->
             <section class="container my-5">
                 <div class="my-5 mx-0 mx-lg-5 ">
@@ -217,24 +216,24 @@
                     <div class="accordion mx-0 mx-lg-5" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button fw-bold bg-white text-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     What are Semantic Elements?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
+                                <div class="accordion-body text-secondary">
                                     <strong>Semantic Elements:</strong> Semantic elements have meaningful names which tells about type of content. For example header, footer, table, … etc. HTML5 introduces many semantic elements as mentioned below which make the code easier to write and understand for the developer as well as instructs the browser on how to treat them. 
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <button class="accordion-button collapsed fw-bold bg-white text-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 What is the "CSS Box-Model"?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
+                                <div class="accordion-body text-secondary">
                                 <strong>CSS Basic Box-Model:</strong> When laying out a document, the browser's rendering engine represents each element as a rectangular box according to the standard CSS basic box model. CSS determines the size, position, and properties (color, background, border size, etc.) of these boxes.
 
                                 Every box is composed of four parts (or areas), defined by their respective edges: the content edge, padding edge, border edge, and margin edge.
@@ -243,12 +242,12 @@
                         </div>
                         <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button class="accordion-button collapsed fw-bold bg-white text-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 What are the differences between the flexbox and grid systems?
                             </button>
                         </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
+                                <div class="accordion-body text-secondary">
                                     
                                     Flexbox best for one dimensional Layout(like Row or Column) and CSS grid best for 2D layout (Row and Column)
                                 </div>
@@ -256,12 +255,12 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <button class="accordion-button collapsed fw-bold bg-white text-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                     Bootstrap vs Tailwind CSS: What are the differences?
                                 </button>
                             </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
+                                    <div class="accordion-body text-secondary">
                                         Developers describe Bootstrap as "Simple and flexible HTML, CSS, and JS for popular UI components and interactions". Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. On the other hand, Tailwind CSS is detailed as "A utility-first CSS framework for rapid UI development". Tailwind is different from frameworks like Bootstrap, Foundation, or Bulma in that it's not a UI kit. It doesn't have a default theme, and there are no build-in UI components. It comes with a menu of predesigned widgets to build your site with, but doesn't impose design decisions that are difficult to undo.
                                     </div>
                                 </div>
@@ -269,7 +268,6 @@
                     </div>
                 </div>
             </section>
-
             <!-- companys -->
             <section class="container d-none d-lg-block my-5">
                 <h2 class="fw-semibold text-center my-5">Trusted by over 400+ companies</h2>
@@ -283,10 +281,7 @@
                 </div>
             </section>
         </main>
-
-        
-
-        <!-- modal content -->
+        <!--============= modal content start===========-->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -308,12 +303,33 @@
                         </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Submit</button>
+                        <button type="button" class="btn btn-danger rounded-1" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-info text-white fw-semibold rounded-1">Register</button>
                     </div>
                 </div>
             </div>
-        </div>
+        </div><!--========= modal content end===========-->
+        <!-- footer -->
+        <footer id="about-and-contact" class="bg-dark">
+            <div class="container pt-5">
+                <div class="text-center">
+                    <h2 class="text-info">TechSchool</h2>
+                    <p class="text-white">Office: <br> 148, Vasha-Shoinik Road Chashara(Balur Math), <br>Narayanganj, Dhaka.</p>
+                    <a class="text-white text-decoration-underline" href="#"><small>Privacy Ploicy</small></a>   |   <a class="text-white text-decoration-underline" href="#"><small>Terms of use</small></a>
+                </div>
+                <div class="sicial-icons d-flex justify-content-center">
+                    <a class="p-1 m-1" href="#"><i class="fs-4 text-light bi bi-facebook"></i></a>
+                    <a class="p-1 m-1" href="#"><i class="fs-4 text-light bi bi-twitter"></i></a>
+                    <a class="p-1 m-1" href="#"><i class="fs-4 text-light bi bi-discord"></i></a>
+                    <a class="p-1 m-1" href="#"><i class="fs-4 text-light bi bi-twitch"></i></a>
+                </div>
+                <!-- copyright -->
+                <div class="text-center">
+                    <small class="text-secondary">Copyright © 2022-2026 <br>
+                        Developed by <a class="text-secondary text-decoration-underline" href="https://www.facebook.com/anik.kumaardatta/">Anik K. Datta</a></small>
+                </div>
+            </div>
+        </footer>
         <!-- bootstrap cdn -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </body>
