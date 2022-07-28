@@ -7,10 +7,13 @@
         <!-- bootstrap cdn -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
         <link rel="stylesheet" href="./src/css/style.css">
+        <style>
+            
+        </style>
     </head>
     <body>
         <!-- navigation bar -->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar sticky-top top-0 py-3 shadow-sm navbar-expand-lg bg-light">
             <div class="container-fluid container">
                 <a class="navbar-brand fw-bold text-primary" href="#">TechSchool</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,35 +48,30 @@
         </nav>
         <header>
             <!-- slider -->
-            <div id="carouselExampleCaptions" class="carousel slide container" data-bs-ride="false">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
+            <div id="carouselExampleCaptions" class="carousel slide container h-auto" data-bs-ride="false">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./src/images/cover/cover-1.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-flex flex-column justify-content-center h-75">
-                            <h5 class="fs-1 text-capitalize">Develop rour skill</h5>
-                            <p>Read on to find the main benefits of skill development training in corporate culture.</p>
-                            <button class="btn btn-light mx-auto rounded-0 w-25 fs-2 fw-semibold text-primary">Get Started</button>
+                        <div class=" carousel-caption d-flex flex-column justify-content-center w-auto h-75 h-md-100">
+                            <h5 class="fs-2 text-capitalize">Develop rour skill</h5>
+                            <p class="d-none d-md-block fs-6">Read on to find the main benefits of skill development.</p>
+                            <a href="#" class="text-decoration-none bg-light py-1 px-2 px-md-3 px-lg-5 mx-auto rounded-1 w-auto fs-4 fw-semibold text-primary">Get Started</a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="./src/images/cover/cover-2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-flex flex-column justify-content-center h-75">
-                            <h5 class="fs-1 text-capitalize"> improving your IT skills</h5>
-                            <p>The benefits of having tech skills go far beyond the information technology industry.</p>
-                            <button class="btn btn-light mx-auto rounded-0 w-25 fs-2 fw-semibold text-primary">Get Started</button>
+                        <div class=" carousel-caption d-flex flex-column justify-content-center w-auto h-75 h-md-100">
+                            <h5 class="fs-2 text-capitalize"> improving your IT skills</h5>
+                            <p class="d-none d-md-block fs-6">The benefits of having tech skills go far beyond.</p>
+                            <a href="#" class="text-decoration-none bg-light py-1 px-2 px-md-3 px-lg-5 mx-auto rounded-1 w-auto fs-4 fw-semibold text-primary">Get Started</a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="./src/images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-flex flex-column justify-content-center h-75">
-                            <h5 class="fs-1 text-capitalize">Increase Your Skill with TechSchool</h5>
-                            <p>Read on to find the main benefits of skill development training in corporate culture.</p>
-                            <button class="btn btn-light mx-auto rounded-0 w-25 fs-2 fw-semibold text-primary">Get Started</button>
+                        <div class=" carousel-caption d-flex flex-column justify-content-center w-auto h-75 h-md-100">
+                            <h5 class="fs-2 text-capitalize">Increase Your Skill with TechSchool</h5>
+                            <p class="d-none d-md-block fs-6">Read on to find the main benefits of skill development.</p>
+                            <a href="#" class="text-decoration-none bg-light py-1 px-2 px-md-3 px-lg-5 mx-auto rounded-1 w-auto fs-4 fw-semibold text-primary">Get Started</a>
                         </div>
                     </div>
                     </div>
@@ -87,6 +85,84 @@
                     </button>
             </div>
         </header>
+<!-- header end -->
+
+        <main class=" theme-bg py-5">
+            <!-- courses -->
+            <section class=" container pt-0 d-flex flex-column justify-content-center">
+                <!-- title text -->
+                <div class="text-center pt-sm-0 pt-5">
+                    <h1 class="text-capitalize">our courses</h1>
+                    <p>Online courses are created to expand your professional knowledge or allow you to explore an area of personal interest.</p>
+                </div>
+                <div class="row g-3 mt-5">
+                    <div class="col-12 my-4 col-lg-6">
+                        <div class=" bg-white shadow-sm rounded-3 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                            <img class="img-fluid p-3 col-md-3 p-lg-3" src="./src/images/course/course-1.png" alt="">
+                            <div class="col-md-9 d-flex flex-column p-3">
+                                <h3>Fundamental Of UI/UX Design</h3>
+                                <p>With these courses the company plans range of boot camps like Backend Engineering</p>
+                                <span class="text-primary fw-bold">Price: $19</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 my-4 col-lg-6">
+                        <div class=" bg-white shadow-sm rounded-3 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                            <img class="img-fluid p-3 col-md-3 p-lg-3" src="./src/images/course/course-2.png" alt="">
+                            <div class="col-md-9 d-flex flex-column p-3">
+                                <h3>Fundamental Of UI/UX Design</h3>
+                                <p>With these courses the company plans range of boot camps like Backend Engineering</p>
+                                <span class="text-primary fw-bold">Price: $19</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 my-4 col-lg-6">
+                        <div class=" bg-white shadow-sm rounded-3 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                            <img class="img-fluid p-3 col-md-3 p-lg-3" src="./src/images/course/course-3.png" alt="">
+                            <div class="col-md-9 d-flex flex-column p-3">
+                                <h3>Fundamental Of UI/UX Design</h3>
+                                <p>With these courses the company plans range of boot camps like Backend Engineering</p>
+                                <span class="text-primary fw-bold">Price: $19</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 my-4 col-lg-6 d-none d-lg-block">
+                        <div class=" bg-white shadow-sm rounded-3 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                            <img class="img-fluid p-3 col-md-3 p-lg-3" src="./src/images/course/course-4.png" alt="">
+                            <div class="col-md-9 d-flex flex-column p-3">
+                                <h3>Fundamental Of UI/UX Design</h3>
+                                <p>With these courses the company plans range of boot camps like Backend Engineering</p>
+                                <span class="text-primary fw-bold">Price: $19</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 my-4 col-lg-6 d-none d-lg-block">
+                        <div class=" bg-white shadow-sm rounded-3 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                            <img class="img-fluid p-3 col-md-3 p-lg-3" src="./src/images/course/course-5.png" alt="">
+                            <div class="col-md-9 d-flex flex-column p-3">
+                                <h3>Fundamental Of UI/UX Design</h3>
+                                <p>With these courses the company plans range of boot camps like Backend Engineering</p>
+                                <span class="text-primary fw-bold">Price: $19</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 my-4 col-lg-6 d-none d-lg-block">
+                        <div class=" bg-white shadow-sm rounded-3 flex-column flex-md-row justify-content-between align-items-center d-flex">
+                            <img class="img-fluid p-3 col-md-3 p-lg-3" src="./src/images/course/course-6.png" alt="">
+                            <div class="col-md-9 d-flex flex-column p-3">
+                                <h3>Fundamental Of UI/UX Design</h3>
+                                <p>With these courses the company plans range of boot camps like Backend Engineering</p>
+                                <span class="text-primary fw-bold">Price: $19</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary fs-4 fw-semibold px-4 py-2 text-center d-block d-lg-none mx-auto mt-4">View All</button>
+
+            </section>
+        </main>
+
+
         <!-- bootstrap cdn -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </body>
